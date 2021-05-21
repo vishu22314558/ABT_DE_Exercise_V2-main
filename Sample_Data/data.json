@@ -1,0 +1,161 @@
+{
+	"hkdata": [
+	    {
+			"quantity": 67,
+			"quantityUnit": "count/min",
+			"startTime": 1618596043.6129726,
+			"endTime": 1618596043.6129726,
+			"quantityType": "HKQuantityTypeIdentifierHeartRate"
+		},
+		{
+			"quantity": 1,
+			"quantityUnit": "min",
+			"startTime": 1618595977.8532997,
+			"endTime": 1618596037.8532997,
+			"quantityType": "HKQuantityTypeIdentifierAppleExerciseTime"
+		},
+		{
+			"quantity": 71,
+			"quantityUnit": "count/min",
+			"startTime": 1618596051.6129726,
+			"endTime": 1618596051.6129726,
+			"quantityType": "HKQuantityTypeIdentifierHeartRate"
+		},
+		{
+			"quantity": 72,
+			"quantityUnit": "count/min",
+			"startTime": 1618596053.6129726,
+			"endTime": 1618596053.6129726,
+			"quantityType": "HKQuantityTypeIdentifierHeartRate"
+		},
+		{
+			"quantity": 82,
+			"quantityUnit": "count/min",
+			"startTime": 1618596058.6129726,
+			"endTime": 1618596058.6129726,
+			"quantityType": "HKQuantityTypeIdentifierHeartRate"
+		},
+		{
+			"quantity": 89,
+			"quantityUnit": "count/min",
+			"startTime": 1618596067.6129726,
+			"endTime": 1618596067.6129726,
+			"quantityType": "HKQuantityTypeIdentifierHeartRate"
+		},
+		{
+			"quantity": 87,
+			"quantityUnit": "count/min",
+			"startTime": 1618596070.6129726,
+			"endTime": 1618596070.6129726,
+			"quantityType": "HKQuantityTypeIdentifierHeartRate"
+		},
+		{
+			"quantity": 85,
+			"quantityUnit": "count/min",
+			"startTime": 1618596073.6129726,
+			"endTime": 1618596073.6129726,
+			"quantityType": "HKQuantityTypeIdentifierHeartRate"
+		},
+		{
+			"quantity": 85,
+			"quantityUnit": "count/min",
+			"startTime": 1618596078.6129726,
+			"endTime": 1618596078.6129726,
+			"quantityType": "HKQuantityTypeIdentifierHeartRate"
+		},
+		{
+			"quantity": 84,
+			"quantityUnit": "count/min",
+			"startTime": 1618596083.6129726,
+			"endTime": 1618596083.6129726,
+			"quantityType": "HKQuantityTypeIdentifierHeartRate"
+		},
+		{
+			"quantity": 81,
+			"quantityUnit": "count/min",
+			"startTime": 1618596088.6129726,
+			"endTime": 1618596088.6129726,
+			"quantityType": "HKQuantityTypeIdentifierHeartRate"
+		},
+		{
+			"quantity": 83,
+			"quantityUnit": "count/min",
+			"startTime": 1618596097.6129726,
+			"endTime": 1618596097.6129726,
+			"quantityType": "HKQuantityTypeIdentifierHeartRate"
+		},
+		{
+			"quantity": 80,
+			"quantityUnit": "count/min",
+			"startTime": 1618596102.6129726,
+			"endTime": 1618596102.6129726,
+			"quantityType": "HKQuantityTypeIdentifierHeartRate"
+		},
+		{
+			"quantity": 1,
+			"quantityUnit": "min",
+			"startTime": 1618596037.8532997,
+			"endTime": 1618596097.8532997,
+			"quantityType": "HKQuantityTypeIdentifierAppleExerciseTime"
+		}],
+	"packetnumber": 453,
+	"data": [],
+	"locdata": [
+		{
+			"latitude": 23.04071233826276,
+			"longitude": -86.82193541693612,
+			"time": 1619052598.0062962,
+			"altitude": 311.53594589233399
+		},
+		{
+			"latitude": 23.04146693026753,
+			"longitude": -86.81978777717225,
+			"time": 1619052613.50745,
+			"altitude": 309
+		},
+		{
+			"latitude": 23.04061054579175,
+			"longitude": -86.82213727635402,
+			"time": 1619052613.8562012,
+			"altitude": 308.50081253051759
+		},
+		{
+			"latitude": 23.04039406053738,
+			"longitude": -86.82204809869896,
+			"time": 1619052630.508529,
+			"altitude": 308.50928497314454
+		},
+		{
+			"latitude": 23.04011262648462,
+			"longitude": -86.82193140104995,
+			"time": 1619052632.7033482,
+			"altitude": 305.97312927246095
+		},
+		{
+			"latitude": 23.04039222742726,
+			"longitude": -86.82212143456536,
+			"time": 1619052633.314462,
+			"altitude": 308.50148010253907
+		},
+		{
+			"latitude": 23.04039222742726,
+			"longitude": -86.82212143456536,
+			"time": 1619052642.314462,
+			"altitude": 308.50148010253907
+		},
+		{
+			"latitude": 23.040183758384269,
+			"longitude": -86.82204182011985,
+			"time": 1619052644.5876489,
+			"altitude": 305.96527099609376
+		},
+		{
+			"latitude": 23.0404235820543,
+			"longitude": -86.82219299807798,
+			"time": 1619052644.98462,
+			"altitude": 309.59000396728517
+		}
+	],
+	"guid": "BC5714C5-B134-40FD-8A86-1C986151BB76",
+	"filename": "BC5714C5-B134-40FD-8A86-1C986151BB76_1619052649.280575"
+}
