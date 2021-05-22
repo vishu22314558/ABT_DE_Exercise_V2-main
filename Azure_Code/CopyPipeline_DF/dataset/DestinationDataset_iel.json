@@ -1,0 +1,16 @@
+{
+    "name": "DestinationDataset_iel",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ABTSQLAzureSqlDatabase1",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "AzureSqlTable",
+        "schema": [],
+        "typeProperties": {
+            "table": "SubjectAccelerometer"
+        }
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

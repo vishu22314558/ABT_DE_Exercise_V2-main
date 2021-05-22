@@ -1,0 +1,118 @@
+{
+    "name": "CopyPipeline_ABTSQL",
+    "properties": {
+        "activities": [
+            {
+                "name": "Copy_iel",
+                "type": "Copy",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "7.00:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [
+                    {
+                        "name": "Source",
+                        "value": "abtsample//Subject_Accelerometer.csv"
+                    },
+                    {
+                        "name": "Destination",
+                        "value": ".Azure Blob Storage file"
+                    }
+                ],
+                "typeProperties": {
+                    "source": {
+                        "type": "DelimitedTextSource",
+                        "storeSettings": {
+                            "type": "AzureBlobStorageReadSettings",
+                            "recursive": true,
+                            "enablePartitionDiscovery": false
+                        },
+                        "formatSettings": {
+                            "type": "DelimitedTextReadSettings",
+                            "skipLineCount": 0
+                        }
+                    },
+                    "sink": {
+                        "type": "AzureSqlSink",
+                        "tableOption": "autoCreate"
+                    },
+                    "enableStaging": false,
+                    "validateDataConsistency": false,
+                    "translator": {
+                        "type": "TabularTranslator",
+                        "mappings": [
+                            {
+                                "source": {
+                                    "name": "SubjectId",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                },
+                                "sink": {
+                                    "name": "SubjectId",
+                                    "type": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "ProgramName",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                },
+                                "sink": {
+                                    "name": "ProgramName",
+                                    "type": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "HFTime",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                },
+                                "sink": {
+                                    "name": "HFTime",
+                                    "type": "String"
+                                }
+                            },
+                            {
+                                "source": {
+                                    "name": "Gyroscope",
+                                    "type": "String",
+                                    "physicalType": "String"
+                                },
+                                "sink": {
+                                    "name": "Gyroscope",
+                                    "type": "String"
+                                }
+                            }
+                        ],
+                        "typeConversion": true,
+                        "typeConversionSettings": {
+                            "allowDataTruncation": true,
+                            "treatBooleanAsNumber": false
+                        }
+                    }
+                },
+                "inputs": [
+                    {
+                        "referenceName": "SourceDataset_iel",
+                        "type": "DatasetReference"
+                    }
+                ],
+                "outputs": [
+                    {
+                        "referenceName": "DestinationDataset_iel",
+                        "type": "DatasetReference"
+                    }
+                ]
+            }
+        ],
+        "annotations": [],
+        "lastPublishTime": "2021-05-22T19:59:46Z"
+    },
+    "type": "Microsoft.DataFactory/factories/pipelines"
+}

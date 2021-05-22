@@ -1,0 +1,12 @@
+{
+    "name": "ABTSQLAzureSqlDatabase1",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "AzureSqlDatabase",
+        "typeProperties": {
+            "connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=abtsqlserver1.database.windows.net;initial catalog=abtsample;user id=XXXXXXX",
+            "encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICRiLdsfsdfdstNDc2ZC1hODhkLTNhZjUxMWNkNzMyOSINCn0="
+        }
+    }
+}

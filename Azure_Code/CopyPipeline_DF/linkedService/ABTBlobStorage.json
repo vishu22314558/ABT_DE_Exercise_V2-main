@@ -1,0 +1,15 @@
+{
+    "name": "ABTBlobStorage",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "AzureBlobStorage",
+        "typeProperties": {
+            "serviceEndpoint": "https://abtsg.blob.core.windows.net",
+            "tenant": "XXXXXXXXXXXXXX",
+            "servicePrincipalId": "9e2089c3-3588-4bd1-9146-ggge906f662ed",
+            "accountKind": "BlobStorage",
+            "encryptedCredential": "ew0KxLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIkt50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkFCVERGX2IyYjdiMWQyLTQ1OGMtNDYyZC04ZTkxLTU3ZjZjZWMzMGRkNSINCn0="
+        }
+    }
+}

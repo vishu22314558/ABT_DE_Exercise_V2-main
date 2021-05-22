@@ -1,0 +1,22 @@
+{
+    "now": "2021-05-22T20:20:25.136Z",
+    "perfNow": 901917.2999999974,
+    "diagnosticCorrelation": "a7557ef1-1e02-4fa4-aa92-436a77876850",
+    "source": "DownloadSupportFiles",
+    "environment": {
+        "productName": "adf",
+        "buildVersion": "1.0.20210520.17",
+        "environmentType": 3,
+        "resourceName": "abtDF",
+        "resourceRegion": "centralus",
+        "resourceGroup": "ABT-Exercise-rg",
+        "subscriptionId": "c81bdfb0-4263-4ec8-bb74-de870247fe28",
+        "sessionId": "hHCWQ",
+        "operationId": "Bzrf8",
+        "gitType": "live"
+    },
+    "additionalInfo": {
+        "selectedResource": "CopyPipeline_ABTSQL",
+        "selectedResourceType": "pipeline"
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "name": "SourceDataset_iel",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ABTBlobStorage",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobStorageLocation",
+                "fileName": "Subject_Accelerometer.csv",
+                "container": "abtsample"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": [
+            {
+                "name": "SubjectId",
+                "type": "String"
+            },
+            {
+                "name": "ProgramName",
+                "type": "String"
+            },
+            {
+                "name": "HFTime",
+                "type": "String"
+            },
+            {
+                "name": "Gyroscope",
+                "type": "String"
+            }
+        ]
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}
