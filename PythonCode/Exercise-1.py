@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# Purpose: Execute Step Function state machine
+# Purpose: Generate Sample Data for Subject and Program 
 # Author:  Vishva Jeet Singh (May 2021)
 # Usage Example: python3 ./Exercise-1.py --env DEV \
 #                                        --sample-number 200
@@ -23,10 +23,10 @@ fake = Faker('en_US')
 
 def main():
     args = parse_args()
-    env = args.env
+
     
     try:
-
+        env = args.env
         logging.info("Environment %s" , env)
         sample_number = args.sample_number
         logging.info("Sample Records Number %s" , sample_number)
